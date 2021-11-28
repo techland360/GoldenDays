@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Beloved</string>
+    <string name="navigation_drawer_open">open</string>
+    <string name="navigation_drawer_close">close</string>
+
+
+    <string name="pref_notification_title">Notification</string>
+    <string name="pref_notification_summ">Turn on/off notification</string>
+
+
+    <string name="user_name">User name</string>
+    <string name="user_email">Email</string>
+    <string name="user_comment">Comments</string>
+    <string name="home">Home</string>
+    <string name="settings">Settings</string>
+    <string name="about_admin">About US</string>
+    <string name="social">Social</string>
+    <string name="youtube">Youtube</string>
+    <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <string name="others">Others</string>
+    <string name="privacy">Privacy policy</string>
+    <string name="share">Share</string>
+    <string name="rate">Rate us</string>
+    <string name="more_app">More app</string>
+    <string name="exit">Exit</string>
+    <string name="developer_page">market://dev?id=5960850934133285134</string>
+    <string name="alternate_dev_page">https://play.google.com/store/apps/dev?id=5960850934133285134</string>
+    <string name="share_text">"Install this app from play store to enjoy this content "</string>
+    <string name="facebook_url">https://www.facebook.com/prantobd320</string>
+    <string name="youtube_url">https://www.youtube.com/channel/UCOJF8HGKW9BAp_aNm5gmcug</string>
+    <string name="privacy_policy_url">http://beloved.techland360.com/privacy</string>
+    <string name="copy_url">Copy Url</string>
+    <string name="open_with">Open With</string>
+     <string name="email_me">Email</string>
+    <string name="admin_number">+8801872934185</string>
+    <string name="tagline">Manage Your Friends</string>
+    <string name="recent_posts"><u>Recent Posts</u></string>
+    <string name="search">Search</string>
+    <string name="profile">Profile</string>
+
+
+    <string name="call">Call</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="favourite">Favourite</string>
+    <string name="badge">Badge</string>
+    <string name="friends">Friends</string>
+    <string name="report">Report problems</string>
+    <string name="faq">FAQ</string>
+    <string name="report_page_link">https://beloved.techland360.com/report</string>
+    <string name="about_us_url">http://beloved.techland360.com/about</string>
+    <string name="loading">will load</string>
+</resources>

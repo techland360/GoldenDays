@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black_white">#FFFFFF</color>
+    <color name="white_black">#000000</color>
+    <color name="mainBg">#0E0E0E</color>
+
+    <color name="cardViewColor">#242424</color>
+</resources>

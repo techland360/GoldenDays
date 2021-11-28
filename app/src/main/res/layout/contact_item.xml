@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/myFriendViewItem"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:background="@drawable/contact_item_background"
+    android:elevation="6dp"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:padding="5dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:transitionName="contact_image"
+        android:id="@+id/imageViewOnContactItem"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="8dp"
+        android:src="@drawable/profile"
+        app:civ_border_color="@color/light_red"
+        app:civ_border_width="2dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/contactNameOnContactItem"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        tools:text="@string/loading"
+        android:textColor="@color/black_white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageViewOnContactItem"
+        app:layout_constraintTop_toTopOf="@+id/imageViewOnContactItem" />
+
+    <TextView
+        android:id="@+id/addressOnContactItem"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        tools:text="@string/loading"
+        android:textColor="@color/black_white"
+        app:layout_constraintEnd_toEndOf="@+id/contactNameOnContactItem"
+        app:layout_constraintStart_toStartOf="@+id/contactNameOnContactItem"
+        app:layout_constraintTop_toBottomOf="@+id/contactNameOnContactItem" />
+
+    <LinearLayout
+        android:id="@+id/moreOption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewOnContactItem">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:background="?android:attr/listDivider" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="8dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/divider">
+
+            <ImageView
+                android:contentDescription="@string/call"
+                android:id="@+id/callOnContactItem"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:src="@drawable/call"
+                android:tooltipText="@string/call"
+                tools:targetApi="o" />
+
+            <ImageView
+                android:contentDescription="@string/delete"
+                android:id="@+id/deleteOnContactItem"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:src="@drawable/delete"
+                android:tooltipText="@string/delete"
+                tools:targetApi="o" />
+
+            <ImageView
+                android:contentDescription="@string/edit"
+                android:id="@+id/editOnContactItem"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:src="@drawable/edit"
+                android:tooltipText="@string/edit"
+                tools:targetApi="o" />
+
+            <ImageView
+                android:contentDescription="@string/favourite"
+                android:id="@+id/favoriteBtn"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:tooltipText="@string/favourite"
+                app:srcCompat="@drawable/love"
+                tools:targetApi="o" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:contentDescription="@string/badge"
+        android:id="@+id/badge"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/badge" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
