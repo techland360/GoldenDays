@@ -1,10 +1,5 @@
 package com.techland360.beloved.activity;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
-import androidx.recyclerview.widget.RecyclerView;
-
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -12,15 +7,18 @@ import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.google.firebase.auth.FirebaseAuth;
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
+import androidx.recyclerview.widget.RecyclerView;
+
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
-import com.techland360.beloved.Model.Contacts;
+import com.techland360.beloved.Model.faqModel;
 import com.techland360.beloved.R;
-import com.techland360.beloved.adapter.ContactAdapter;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -74,30 +72,6 @@ public class FaqPage extends AppCompatActivity {
     }
 
 
-    private static class faqModel{
-
-        private String q,ans;
-
-        public faqModel() {
-
-        }
-
-        public String getQ() {
-            return q;
-        }
-
-        public void setQ(String q) {
-            this.q = q;
-        }
-
-        public String getAns() {
-            return ans;
-        }
-
-        public void setAns(String ans) {
-            this.ans = ans;
-        }
-    }
 
     private class  FaqAdapter extends RecyclerView.Adapter<FaqAdapter.FaqHolder>{
         List<faqModel> faqList;
