@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Beloved</string>
+    <string name="app_name">Golden Days</string>
     <string name="navigation_drawer_open">open</string>
     <string name="navigation_drawer_close">close</string>
 
@@ -29,12 +29,12 @@
     <string name="share_text">"Install this app from play store to enjoy this content "</string>
     <string name="facebook_url">https://www.facebook.com/prantobd320</string>
     <string name="youtube_url">https://www.youtube.com/channel/UCOJF8HGKW9BAp_aNm5gmcug</string>
-    <string name="privacy_policy_url">http://beloved.techland360.com/privacy</string>
+    <string name="privacy_policy_url">https://goldendays.techland360.com/privacy</string>
     <string name="copy_url">Copy Url</string>
     <string name="open_with">Open With</string>
-     <string name="email_me">Email</string>
+    <string name="email_me">Email</string>
     <string name="admin_number">+8801872934185</string>
-    <string name="tagline">Manage Your Friends</string>
+    <string name="tagline">Manage Your Friends and Family</string>
     <string name="recent_posts"><u>Recent Posts</u></string>
     <string name="search">Search</string>
     <string name="profile">Profile</string>
@@ -48,7 +48,8 @@
     <string name="friends">Friends</string>
     <string name="report">Report problems</string>
     <string name="faq">FAQ</string>
-    <string name="report_page_link">https://beloved.techland360.com/report</string>
-    <string name="about_us_url">http://beloved.techland360.com/about</string>
-    <string name="loading">will load</string>
+    <string name="report_page_link">https://goldendays.techland360.com/report</string>
+    <string name="about_us_url">https://goldendays.techland360.com/about</string>
+    <string name="loading">Will load</string>
+    <string name="golden_days">GOLDEN DAYS</string>
 </resources>

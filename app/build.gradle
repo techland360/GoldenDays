@@ -6,7 +6,7 @@ plugins {
 android {
     signingConfigs {
         release {
-            storeFile file('G:\\Android studio\\sourov.jks')
+            storeFile file('D:\\Freelancing\\Programming\\Android Apps\\Golden Days\\Android studio\\sourov.jks')
             storePassword 'power of 12'
             keyAlias 'sourov'
             keyPassword 'power of 12'
@@ -15,7 +15,7 @@ android {
     compileSdk 31
 
     defaultConfig {
-        applicationId "com.techland360.beloved"
+        applicationId "com.techland360.goldendays"
         minSdk 21
         targetSdk 31
         versionCode 103
@@ -55,7 +55,7 @@ dependencies {
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
     annotationProcessor 'com.github.bumptech.glide:compiler:4.12.0'
     implementation 'de.hdodenhof:circleimageview:3.1.0'
-    implementation 'id.zelory:compressor:2.1.1'
+    implementation 'id.zelory:compressor:3.0.1'
     implementation 'com.github.yalantis:ucrop:2.2.6'
     implementation 'com.karumi:dexter:6.2.3'
     implementation 'com.github.chrisbanes:PhotoView:2.3.0'

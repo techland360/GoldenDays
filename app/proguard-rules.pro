@@ -20,5 +20,5 @@
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
 
--keep class com.techland360.beloved.Model.** { *; }
--keep class com.techland360.beloved.auth.** { *; }
+-keep class com.techland360.goldendays.Model.** { *; }
+-keep class com.techland360.goldendays.auth.** { *; }

@@ -2,5 +2,11 @@
 <resources>
     <array name="preloaded_fonts" translatable="false">
         <item>@font/carter_one</item>
+        <item>@font/poppins_medium</item>
+        <item>@font/roboto_bold</item>
+        <item>@font/roboto_medium</item>
+        <item>@font/source_sans_pro_black</item>
+        <item>@font/source_sans_pro_bold</item>
+        <item>@font/source_sans_pro_semibold</item>
     </array>
 </resources>

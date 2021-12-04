@@ -1,79 +1,34 @@
 {
   "project_info": {
-    "project_number": "237977905280",
-    "firebase_url": "https://beloved-e393f-default-rtdb.firebaseio.com",
-    "project_id": "beloved-e393f",
-    "storage_bucket": "beloved-e393f.appspot.com"
+    "project_number": "888006093070",
+    "firebase_url": "https://golden-days-360-default-rtdb.firebaseio.com",
+    "project_id": "golden-days-360",
+    "storage_bucket": "golden-days-360.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:237977905280:android:307290435e723acff29e65",
+        "mobilesdk_app_id": "1:888006093070:android:e1be812027e99a6cb84f5f",
         "android_client_info": {
-          "package_name": "com.techland360.beloved"
+          "package_name": "com.techland360.goldendays"
         }
       },
       "oauth_client": [
         {
-          "client_id": "237977905280-b0f2ak447m5pm5rah7o0roqs8h11kee1.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.techland360.beloved",
-            "certificate_hash": "74c327ab9b1f7412c9cf6658ca25f22810f3fb5a"
-          }
-        },
-        {
-          "client_id": "237977905280-l3he05a35a88cf9gmr8enm1v6nh689k9.apps.googleusercontent.com",
+          "client_id": "888006093070-dfikn48p53hgcrv0kvqp03h7mpk82nbk.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyA1aCK5qOZQ3G5_g5sUQAA12bh_pRU8on8"
+          "current_key": "AIzaSyAxDPWVLdRuekMUuiA8lw1AaQvac8VLoas"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "237977905280-l3he05a35a88cf9gmr8enm1v6nh689k9.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:237977905280:android:04acd57e8a5da084f29e65",
-        "android_client_info": {
-          "package_name": "net.sourov.fdmanagerfinal"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "237977905280-dac7c82kkkkva7aeag77u66gqg1bllf9.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "net.sourov.fdmanagerfinal",
-            "certificate_hash": "74c327ab9b1f7412c9cf6658ca25f22810f3fb5a"
-          }
-        },
-        {
-          "client_id": "237977905280-l3he05a35a88cf9gmr8enm1v6nh689k9.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyA1aCK5qOZQ3G5_g5sUQAA12bh_pRU8on8"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "237977905280-l3he05a35a88cf9gmr8enm1v6nh689k9.apps.googleusercontent.com",
+              "client_id": "888006093070-dfikn48p53hgcrv0kvqp03h7mpk82nbk.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

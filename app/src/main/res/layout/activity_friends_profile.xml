@@ -153,10 +153,10 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
-                    android:fontFamily="@font/carter_one"
-                    tools:text="Contacts name"
+                    android:fontFamily="@font/roboto_bold"
                     android:textColor="@color/black_white"
-                    android:textSize="30sp" />
+                    android:textSize="30sp"
+                    tools:text="Contact's Name" />
 
 
 
@@ -180,6 +180,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:fontFamily="@font/roboto_medium"
                             android:text="Name:"
                             android:textColor="#0090ff"
                             android:textSize="18sp" />

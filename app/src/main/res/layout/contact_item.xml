@@ -12,13 +12,13 @@
     android:padding="5dp">
 
     <de.hdodenhof.circleimageview.CircleImageView
-        android:transitionName="contact_image"
         android:id="@+id/imageViewOnContactItem"
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:layout_marginStart="8dp"
         android:src="@drawable/profile"
-        app:civ_border_color="@color/light_red"
+        android:transitionName="contact_image"
+        app:civ_border_color="#00CC66"
         app:civ_border_width="2dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

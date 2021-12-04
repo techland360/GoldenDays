@@ -31,12 +31,12 @@
 
             <androidx.appcompat.widget.Toolbar
                 android:id="@+id/toolbar"
-                app:menu="@menu/homepage_menu"
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"
-                android:background="?attr/colorPrimary"
+                android:background="#2196F3"
                 android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
                 app:layout_scrollFlags="scroll|enterAlways"
+                app:menu="@menu/homepage_menu"
                 app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
 
         </com.google.android.material.appbar.AppBarLayout>
@@ -52,20 +52,20 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
-            app:itemTextColor="@color/bottom_nav_color"
+            android:background="#9C27B0"
             app:itemIconTint="@color/bottom_nav_color"
-            android:background="#FF0016"
+            app:itemTextColor="@color/bottom_nav_color"
             app:menu="@menu/bottom_menu" />
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/floatingActionButton"
             android:layout_width="wrap_content"
-            android:visibility="visible"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom|right"
-            android:layout_marginBottom="60dp"
             android:layout_marginRight="10dp"
+            android:layout_marginBottom="70dp"
             android:clickable="true"
+            android:visibility="visible"
             app:srcCompat="@drawable/add" />
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
 

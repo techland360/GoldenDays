@@ -8,10 +8,12 @@
     android:background="@color/mainBg"
     tools:context=".activity.FaqPage">
     <include layout="@layout/toolbar"/>
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/faqPage"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+        android:elevation="10dp"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
 
 </LinearLayout>
