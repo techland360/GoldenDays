@@ -8,7 +8,8 @@
 
 
 
-    <color name="colorPrimary">#00AEFF</color>
+    <color name="colorPrimary">#4CAF50</color>
+    <color name="colorPrimarySide">#9AFF03</color>
     <color name="black_white">#000000</color>
     <color name="white_black">#FFFFFF</color>
     <color name="only_black">#FF000000</color>

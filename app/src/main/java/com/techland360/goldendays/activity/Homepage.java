@@ -77,6 +77,7 @@ public class Homepage extends AppCompatActivity implements NavigationView.OnNavi
         toggle.syncState();
         navigationView.setNavigationItemSelectedListener(this);
 
+        toolbar.setNavigationIcon(R.drawable. ic_custom_nav_icon);
 
         viewPager2 = findViewById(R.id.pager2);
         homepagePagerAdapter = new HomepagePagerAdapter(getSupportFragmentManager(), getLifecycle());

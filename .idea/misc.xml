@@ -3,8 +3,22 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/PrantoB/AndroidStudioProjects/GoldenDaysPlaystore/app/src/main/res/drawable/add.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/PrantoB/AndroidStudioProjects/GoldenDaysPlaystore/app/src/main/res/drawable/contact_item_background.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/PrantoB/AndroidStudioProjects/GoldenDaysPlaystore/app/src/main/res/drawable/home.xml" value="0.12962962962962962" />
+        <entry key="..\:/Users/PrantoB/AndroidStudioProjects/GoldenDaysPlaystore/app/src/main/res/drawable/ic_call.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/PrantoB/AndroidStudioProjects/GoldenDaysPlaystore/app/src/main/res/drawable/ic_contact.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/PrantoB/AndroidStudioProjects/GoldenDaysPlaystore/app/src/main/res/drawable/ic_date.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/PrantoB/AndroidStudioProjects/GoldenDaysPlaystore/app/src/main/res/drawable/ic_profile.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/PrantoB/AndroidStudioProjects/GoldenDaysPlaystore/app/src/main/res/drawable/round_border.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/PrantoB/AndroidStudioProjects/GoldenDaysPlaystore/app/src/main/res/drawable/settings.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/PrantoB/AndroidStudioProjects/GoldenDaysPlaystore/app/src/main/res/drawable/wave.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/PrantoB/AndroidStudioProjects/GoldenDaysPlaystore/app/src/main/res/drawable/xml_contacts.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/PrantoB/AndroidStudioProjects/GoldenDaysPlaystore/app/src/main/res/drawable/xml_love.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/PrantoB/AndroidStudioProjects/GoldenDaysPlaystore/app/src/main/res/drawable/xml_report.xml" value="0.26614583333333336" />
         <entry key="..\:/Users/PrantoB/AndroidStudioProjects/GoldenDaysPlaystore/app/src/main/res/layout/activity_auth.xml" value="0.25" />
         <entry key="..\:/Users/PrantoB/AndroidStudioProjects/GoldenDaysPlaystore/app/src/main/res/layout/activity_faq_page.xml" value="0.25" />
+        <entry key="..\:/Users/PrantoB/AndroidStudioProjects/GoldenDaysPlaystore/app/src/main/res/layout/activity_friends_profile.xml" value="0.25" />
         <entry key="..\:/Users/PrantoB/AndroidStudioProjects/GoldenDaysPlaystore/app/src/main/res/layout/activity_homepage.xml" value="0.25" />
         <entry key="..\:/Users/PrantoB/AndroidStudioProjects/GoldenDaysPlaystore/app/src/main/res/layout/activity_image_viewer.xml" value="0.25" />
         <entry key="..\:/Users/PrantoB/AndroidStudioProjects/GoldenDaysPlaystore/app/src/main/res/layout/activity_settings.xml" value="0.25" />

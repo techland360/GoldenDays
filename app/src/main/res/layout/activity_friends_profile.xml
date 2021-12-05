@@ -22,7 +22,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="50dp"
-                android:fontFamily="@font/carter_one"
+                android:fontFamily="@font/source_sans_pro_black"
                 android:text="Profile"
                 android:textColor="@color/only_white"
                 android:textSize="30sp" />
@@ -153,7 +153,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
-                    android:fontFamily="@font/roboto_bold"
+                    android:fontFamily="@font/source_sans_pro_black"
                     android:textColor="@color/black_white"
                     android:textSize="30sp"
                     tools:text="Contact's Name" />
@@ -180,7 +180,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:fontFamily="@font/roboto_medium"
+                            android:fontFamily="@font/source_sans_pro_bold"
                             android:text="Name:"
                             android:textColor="#0090ff"
                             android:textSize="18sp" />
@@ -193,6 +193,7 @@
                             android:layout_weight="1"
                             android:background="@null"
                             android:enabled="false"
+                            android:fontFamily="@font/source_sans_pro_bold"
                             android:inputType="textPersonName"
                             android:paddingStart="10dp"
                             android:paddingTop="5dp"
@@ -223,6 +224,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:fontFamily="@font/source_sans_pro_bold"
                             android:text="Adress:"
                             android:textColor="#0090ff"
                             android:textSize="18sp" />
@@ -235,6 +237,7 @@
                             android:layout_weight="1"
                             android:background="@null"
                             android:enabled="false"
+                            android:fontFamily="@font/source_sans_pro_bold"
                             android:inputType="textEmailAddress"
                             android:paddingStart="10dp"
                             android:paddingTop="5dp"
@@ -265,6 +268,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:fontFamily="@font/source_sans_pro_bold"
                             android:text="Date Of Birth"
                             android:textColor="#0090ff"
                             android:textSize="18sp" />
@@ -277,6 +281,7 @@
                             android:layout_weight="1"
                             android:background="@null"
                             android:enabled="false"
+                            android:fontFamily="@font/source_sans_pro_bold"
                             android:inputType="date"
                             android:paddingStart="10dp"
                             android:paddingTop="5dp"
@@ -307,6 +312,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:fontFamily="@font/source_sans_pro_bold"
                             android:text="Number:"
                             android:textColor="#0090ff"
                             android:textSize="18sp" />
@@ -319,6 +325,7 @@
                             android:layout_weight="1"
                             android:background="@null"
                             android:enabled="false"
+                            android:fontFamily="@font/source_sans_pro_bold"
                             android:inputType="phone"
                             android:paddingStart="10dp"
                             android:paddingTop="5dp"

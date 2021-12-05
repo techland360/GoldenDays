@@ -3,14 +3,6 @@ package com.techland360.goldendays.activity;
 import static android.view.View.TEXT_ALIGNMENT_VIEW_END;
 import static android.view.View.TEXT_ALIGNMENT_VIEW_START;
 
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
-import androidx.core.app.ActivityOptionsCompat;
-import androidx.fragment.app.FragmentTransaction;
-
-import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.DatePickerDialog;
 import android.app.ProgressDialog;
@@ -29,6 +21,11 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
+
 import com.bumptech.glide.Glide;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
@@ -41,9 +38,7 @@ import com.google.firebase.database.annotations.NotNull;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 import com.techland360.goldendays.Model.Contacts;
-import com.techland360.goldendays.Model.Users;
 import com.techland360.goldendays.R;
-import com.techland360.goldendays.fragments.FavouriteList;
 import com.techland360.goldendays.helper.Sourov;
 import com.yalantis.ucrop.UCrop;
 
@@ -51,7 +46,6 @@ import java.io.File;
 import java.io.IOException;
 import java.util.Calendar;
 import java.util.HashMap;
-import java.util.Objects;
 import java.util.UUID;
 
 import de.hdodenhof.circleimageview.CircleImageView;
@@ -345,7 +339,8 @@ public class FriendsProfile extends AppCompatActivity {
         if (sizeInByte < 51200) {
             uploadImage(f);
         } else {
-            File compressedImageFile = new Compressor(this)
+            File compressedImageFile;
+            compressedImageFile = new Compressor(this)
                     .setMaxWidth(600)
                     .setMaxHeight(600)
                     .setCompressFormat(Bitmap.CompressFormat.WEBP)

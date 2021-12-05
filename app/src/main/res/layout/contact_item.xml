@@ -29,24 +29,26 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        tools:text="@string/loading"
+        android:fontFamily="@font/source_sans_pro_bold"
         android:textColor="@color/black_white"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageViewOnContactItem"
-        app:layout_constraintTop_toTopOf="@+id/imageViewOnContactItem" />
+        app:layout_constraintTop_toTopOf="@+id/imageViewOnContactItem"
+        tools:text="@string/loading" />
 
     <TextView
         android:id="@+id/addressOnContactItem"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="2dp"
-        tools:text="@string/loading"
+        android:fontFamily="@font/source_sans_pro_bold"
         android:textColor="@color/black_white"
         app:layout_constraintEnd_toEndOf="@+id/contactNameOnContactItem"
         app:layout_constraintStart_toStartOf="@+id/contactNameOnContactItem"
-        app:layout_constraintTop_toBottomOf="@+id/contactNameOnContactItem" />
+        app:layout_constraintTop_toBottomOf="@+id/contactNameOnContactItem"
+        tools:text="@string/loading" />
 
     <LinearLayout
         android:id="@+id/moreOption"

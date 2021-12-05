@@ -5,4 +5,5 @@
     <color name="mainBg">#0E0E0E</color>
 
     <color name="cardViewColor">#242424</color>
+    <color name="colorPrimarySide">#9AFF03</color>
 </resources>

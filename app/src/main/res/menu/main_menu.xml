@@ -8,8 +8,6 @@
             android:icon="@drawable/ic_home"
             android:title="@string/home" />
 
-
-
         <item
             android:id="@+id/action_friends"
             android:icon="@drawable/xml_contacts"
@@ -30,7 +28,10 @@
             android:icon="@drawable/ic_developer"
             android:title="@string/about_admin" />
 
-
+        <item
+            android:id="@+id/action_contact_dev"
+            android:icon="@drawable/contact"
+            android:title="@string/contact_admin" />
 
     </group>
 
@@ -74,6 +75,7 @@
                 android:id="@+id/action_share"
                 android:icon="@drawable/ic_share"
                 android:title="@string/share" />
+
 
             <item
                 android:id="@+id/action_rate_app"
