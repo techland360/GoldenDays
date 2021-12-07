@@ -78,41 +78,41 @@
             app:layout_constraintTop_toBottomOf="@+id/divider">
 
             <ImageView
-                android:contentDescription="@string/call"
                 android:id="@+id/callOnContactItem"
                 android:layout_width="30dp"
                 android:layout_height="30dp"
                 android:layout_weight="1"
+                android:contentDescription="@string/call"
                 android:src="@drawable/call"
                 android:tooltipText="@string/call"
                 tools:targetApi="o" />
 
             <ImageView
-                android:contentDescription="@string/delete"
                 android:id="@+id/deleteOnContactItem"
                 android:layout_width="30dp"
                 android:layout_height="30dp"
                 android:layout_weight="1"
+                android:contentDescription="@string/delete"
                 android:src="@drawable/delete"
                 android:tooltipText="@string/delete"
                 tools:targetApi="o" />
 
             <ImageView
-                android:contentDescription="@string/edit"
                 android:id="@+id/editOnContactItem"
                 android:layout_width="30dp"
                 android:layout_height="30dp"
                 android:layout_weight="1"
+                android:contentDescription="@string/edit"
                 android:src="@drawable/edit"
                 android:tooltipText="@string/edit"
                 tools:targetApi="o" />
 
             <ImageView
-                android:contentDescription="@string/favourite"
                 android:id="@+id/favoriteBtn"
                 android:layout_width="30dp"
                 android:layout_height="30dp"
                 android:layout_weight="1"
+                android:contentDescription="@string/favourite"
                 android:tooltipText="@string/favourite"
                 app:srcCompat="@drawable/love"
                 tools:targetApi="o" />
@@ -120,10 +120,10 @@
     </LinearLayout>
 
     <ImageView
-        android:contentDescription="@string/badge"
         android:id="@+id/badge"
         android:layout_width="30dp"
         android:layout_height="30dp"
+        android:contentDescription="@string/badge"
         android:visibility="gone"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"

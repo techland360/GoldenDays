@@ -53,4 +53,6 @@
     <string name="about_us_url">https://goldendays.techland360.com/about</string>
     <string name="loading">Will load</string>
     <string name="golden_days">GOLDEN DAYS</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
