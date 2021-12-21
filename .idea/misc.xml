@@ -39,6 +39,31 @@
         <entry key="..\:/Users/PrantoB/AndroidStudioProjects/GoldenDaysPlaystore/app/src/main/res/menu/homepage_menu.xml" value="0.25" />
         <entry key="..\:/Users/PrantoB/AndroidStudioProjects/GoldenDaysPlaystore/app/src/main/res/menu/image_preview_menu.xml" value="0.25" />
         <entry key="..\:/Users/PrantoB/AndroidStudioProjects/GoldenDaysPlaystore/app/src/main/res/menu/main_menu.xml" value="0.25" />
+        <entry key="..\:/Users/PrantoB/AndroidStudioProjects/GoldenDaysPlaystoreV1.4/app/src/main/res/drawable/ic_answer_icon.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/PrantoB/AndroidStudioProjects/GoldenDaysPlaystoreV1.4/app/src/main/res/drawable/ic_question_icon.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/PrantoB/AndroidStudioProjects/GoldenDaysPlaystoreV1.4/app/src/main/res/layout/activity_auth.xml" value="0.25" />
+        <entry key="..\:/Users/PrantoB/AndroidStudioProjects/GoldenDaysPlaystoreV1.4/app/src/main/res/layout/activity_change_question_page.xml" value="0.25" />
+        <entry key="..\:/Users/PrantoB/AndroidStudioProjects/GoldenDaysPlaystoreV1.4/app/src/main/res/layout/activity_friends_profile.xml" value="0.25" />
+        <entry key="..\:/Users/PrantoB/AndroidStudioProjects/GoldenDaysPlaystoreV1.4/app/src/main/res/layout/activity_homepage.xml" value="0.25" />
+        <entry key="..\:/Users/PrantoB/AndroidStudioProjects/GoldenDaysPlaystoreV1.4/app/src/main/res/layout/activity_image_viewer.xml" value="0.25" />
+        <entry key="..\:/Users/PrantoB/AndroidStudioProjects/GoldenDaysPlaystoreV1.4/app/src/main/res/layout/activity_security_question.xml" value="0.25" />
+        <entry key="..\:/Users/PrantoB/AndroidStudioProjects/GoldenDaysPlaystoreV1.4/app/src/main/res/layout/activity_settings.xml" value="0.25" />
+        <entry key="..\:/Users/PrantoB/AndroidStudioProjects/GoldenDaysPlaystoreV1.4/app/src/main/res/layout/activity_settings_pranto.xml" value="0.25" />
+        <entry key="..\:/Users/PrantoB/AndroidStudioProjects/GoldenDaysPlaystoreV1.4/app/src/main/res/layout/activity_splash.xml" value="0.25" />
+        <entry key="..\:/Users/PrantoB/AndroidStudioProjects/GoldenDaysPlaystoreV1.4/app/src/main/res/layout/contact_item.xml" value="0.25" />
+        <entry key="..\:/Users/PrantoB/AndroidStudioProjects/GoldenDaysPlaystoreV1.4/app/src/main/res/layout/fragment_add_contacts.xml" value="0.25" />
+        <entry key="..\:/Users/PrantoB/AndroidStudioProjects/GoldenDaysPlaystoreV1.4/app/src/main/res/layout/fragment_dashboard.xml" value="0.25" />
+        <entry key="..\:/Users/PrantoB/AndroidStudioProjects/GoldenDaysPlaystoreV1.4/app/src/main/res/layout/fragment_security_question.xml" value="0.25" />
+        <entry key="..\:/Users/PrantoB/AndroidStudioProjects/GoldenDaysPlaystoreV1.4/app/src/main/res/layout/list_item.xml" value="0.25" />
+        <entry key="..\:/Users/PrantoB/AndroidStudioProjects/GoldenDaysPlaystoreV1.4/app/src/main/res/layout/progress_bar.xml" value="0.25" />
+        <entry key="..\:/Users/PrantoB/AndroidStudioProjects/GoldenDaysPlaystoreV1.4/app/src/main/res/layout/toolbar.xml" value="0.25" />
+        <entry key="..\:/Users/PrantoB/AndroidStudioProjects/GoldenDaysPlaystoreV1.4/app/src/main/res/menu/bottom_menu.xml" value="0.25" />
+        <entry key="..\:/Users/PrantoB/AndroidStudioProjects/GoldenDaysPlaystoreV1.4/app/src/main/res/menu/homepage_menu.xml" value="0.25" />
+        <entry key="..\:/Users/PrantoB/AndroidStudioProjects/GoldenDaysPlaystoreV1.4/app/src/main/res/menu/image_preview_menu.xml" value="0.25" />
+        <entry key="..\:/Users/PrantoB/AndroidStudioProjects/GoldenDaysPlaystoreV1.4/app/src/main/res/menu/main_menu.xml" value="0.25" />
+        <entry key="..\:/Users/PrantoB/AndroidStudioProjects/GoldenDaysPlaystoreV1.4/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/PrantoB/AndroidStudioProjects/GoldenDaysPlaystoreV1.4/app/src/main/res/xml/change_question_setting.xml" value="0.25" />
+        <entry key="..\:/Users/PrantoB/AndroidStudioProjects/GoldenDaysPlaystoreV1.4/app/src/main/res/xml/settings_preference.xml" value="0.25" />
         <entry key="..\:/Users/PrantoB/AndroidStudioProjects/beloved-play-store/app/src/main/res/drawable/add.xml" value="0.26614583333333336" />
         <entry key="..\:/Users/PrantoB/AndroidStudioProjects/beloved-play-store/app/src/main/res/drawable/contact_item_background.xml" value="0.26614583333333336" />
         <entry key="..\:/Users/PrantoB/AndroidStudioProjects/beloved-play-store/app/src/main/res/drawable/ic_profile.xml" value="0.26614583333333336" />

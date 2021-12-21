@@ -10,9 +10,14 @@ import android.net.Uri;
 import android.provider.Settings;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.widget.Toast;
 
 import androidx.core.app.ActivityOptionsCompat;
 
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.Query;
 import com.karumi.dexter.Dexter;
 import com.karumi.dexter.MultiplePermissionsReport;
 import com.karumi.dexter.PermissionToken;
@@ -43,6 +48,14 @@ public class Sourov {
         progressDialog.getWindow().setBackgroundDrawableResource(android.R.color.transparent);
 
     }
+
+
+
+
+
+
+
+
 
     public AlertDialog spinner() {
         return progressDialog;
@@ -130,5 +143,8 @@ public class Sourov {
         ActivityOptionsCompat optionsCompat = ActivityOptionsCompat.makeSceneTransitionAnimation(activity, view, view.getTransitionName());
         context.startActivity(intent,optionsCompat.toBundle());
     }
+
+
+
 
 }

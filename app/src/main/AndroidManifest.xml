@@ -18,6 +18,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.goldendays">
         <activity
+            android:name=".activity.ChangeQuestionPage"
+            android:exported="false" />
+        <activity
             android:name=".activity.FaqPage"
             android:exported="false" />
         <activity
@@ -32,12 +35,11 @@
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
-            android:name=".activity.SettingsActivity"
+            android:name=".activity.Settings"
             android:exported="false" />
         <activity
             android:name=".activity.Homepage"
-            android:exported="false"
-            android:windowSoftInputMode="adjustPan" />
+            android:exported="false" />
         <activity
             android:name=".auth.AuthActivity"
             android:exported="false" />

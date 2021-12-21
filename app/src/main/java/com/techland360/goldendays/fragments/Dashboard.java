@@ -64,8 +64,8 @@ import id.zelory.compressor.Compressor;
 public class Dashboard extends Fragment {
 
     CircleImageView ImageOnDashboard;
-    EditText  nameOnDashboard, emailOnDashboard, numberOnDashboard, dateOnDashboard;
-    TextView nameTextOnDashboard,numberOfFriendsOnDashboard;
+    EditText nameOnDashboard, emailOnDashboard, numberOnDashboard, dateOnDashboard;
+    TextView nameTextOnDashboard, numberOfFriendsOnDashboard;
 
 
     Toast myToast;
@@ -79,15 +79,15 @@ public class Dashboard extends Fragment {
     public static final int CAMERA_CODE = 200;
     private static final int PICK_IMAGE = 100;
 
-    LinearLayout saveCancel,imagePicker;
+    LinearLayout saveCancel, imagePicker;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View view =  inflater.inflate(R.layout.fragment_dashboard, container, false);
+        View view = inflater.inflate(R.layout.fragment_dashboard, container, false);
 
-        mAuth = FirebaseAuth.getInstance(); //initialize firebase auth system
+        mAuth  = FirebaseAuth.getInstance(); //initialize firebase auth system
         storageReference = FirebaseStorage.getInstance().getReference();
         myToast = Toast.makeText(getContext(), null, Toast.LENGTH_SHORT);
 
@@ -165,10 +165,22 @@ public class Dashboard extends Fragment {
         }
     }
 
+    String dateString, monthString;
     private void dateFunctionality() {
-        DatePickerDialog.OnDateSetListener mDateSetListener   = (datePicker, year, month, day) -> {
+        DatePickerDialog.OnDateSetListener mDateSetListener = (datePicker, year, month, day) -> {
             month = month + 1;
-            String date = day + "/" + month + "/" + year;
+
+            if (day < 10) {
+                dateString = "0" + day;
+            } else {
+                dateString = String.valueOf(day);
+            }
+            if (month < 10) {
+                monthString = "0" + month;
+            } else {
+                monthString = String.valueOf(month);
+            }
+            String date = dateString + "/" + monthString + "/" + year;
             dateOnDashboard.setText(date);
         };
         dateOnDashboard.setOnClickListener(v -> {
@@ -210,7 +222,8 @@ public class Dashboard extends Fragment {
         imagePicker.setVisibility(View.VISIBLE);
 
     }
-    private void makeNonEditable(){
+
+    private void makeNonEditable() {
         nameOnDashboard.setEnabled(false);
         nameOnDashboard.setTextAlignment(TEXT_ALIGNMENT_VIEW_END);
         nameOnDashboard.setBackground(null);
@@ -256,7 +269,7 @@ public class Dashboard extends Fragment {
 
             @Override
             public void onCancelled(@NonNull @NotNull DatabaseError error) {
-            
+
             }
         });
     }
@@ -287,11 +300,11 @@ public class Dashboard extends Fragment {
 
 
     private void setDetails() {
-     try {
-         Glide.with(getContext()).load(image_url).placeholder(R.drawable.profile).into(ImageOnDashboard);
-     } catch (Exception e) {
-         e.printStackTrace();
-     }
+        try {
+            Glide.with(getContext()).load(image_url).placeholder(R.drawable.profile).into(ImageOnDashboard);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
         nameOnDashboard.setText(name);
         nameTextOnDashboard.setText(name);
 
@@ -345,7 +358,6 @@ public class Dashboard extends Fragment {
                 .withAspectRatio(1, 1)
                 .start(requireContext(), this, UCrop.REQUEST_CROP);
     }
-
 
 
     private void checkImageBeforeUpload() throws IOException {
@@ -408,7 +420,7 @@ public class Dashboard extends Fragment {
 
         reference.updateChildren(hashMap).addOnCompleteListener(task -> {
             if (task.isSuccessful()) {
-                myToast.setText("data sent to database");
+                myToast.setText("Data Sent Successfully");
                 myToast.show();
                 makeNonEditable();
             }

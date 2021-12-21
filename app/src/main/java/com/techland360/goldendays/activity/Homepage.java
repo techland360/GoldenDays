@@ -48,7 +48,7 @@ public class Homepage extends AppCompatActivity implements NavigationView.OnNavi
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_homepage);
-        AndroidBug5497Workaround.assistActivity(this);
+//        AndroidBug5497Workaround.assistActivity(this);
 
         sourov = new Sourov(Homepage.this);
 
@@ -122,7 +122,7 @@ public class Homepage extends AppCompatActivity implements NavigationView.OnNavi
 
         getMenuInflater().inflate(R.menu.homepage_menu, menu);
         menu.findItem(R.id.app_bar_setting).setOnMenuItemClickListener(item -> {
-            startActivity(new Intent(Homepage.this, SettingsActivity.class));
+            startActivity(new Intent(Homepage.this, Settings.class));
             return true;
         });
         menu.findItem(R.id.app_bar_logout).setOnMenuItemClickListener(item -> {
@@ -154,9 +154,13 @@ public class Homepage extends AppCompatActivity implements NavigationView.OnNavi
         } else if (itemId == R.id.action_fav) {
             viewPager2.setCurrentItem(2);
         } else if (itemId == R.id.action_settings) {
-            sourov.openActivity(SettingsActivity.class, false);
+            sourov.openActivity(Settings.class, false);
         } else if (itemId == R.id.action_about_dev) {
             sourov.invokeNativeApp(getResources().getString(R.string.about_us_url));
+        } else if (itemId == R.id.action_contact_dev) {
+            sourov.invokeNativeApp("https://goldendays.techland360.com/contact");
+
+
 
         } else if (itemId == R.id.action_facebook) {
             sourov.invokeNativeApp(getResources().getString(R.string.facebook_url));

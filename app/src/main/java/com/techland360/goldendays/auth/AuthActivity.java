@@ -30,6 +30,7 @@ import com.google.firebase.auth.PhoneAuthProvider;
 import com.google.firebase.database.annotations.NotNull;
 import com.hbb20.CountryCodePicker;
 import com.techland360.goldendays.R;
+import com.techland360.goldendays.activity.ChangeQuestionPage;
 import com.techland360.goldendays.activity.Homepage;
 import com.techland360.goldendays.helper.Sourov;
 
@@ -117,9 +118,9 @@ public class AuthActivity extends AppCompatActivity {
                     sourov.spinner().dismiss();
                     if (task.isSuccessful()) {
                         if (task.getResult().getAdditionalUserInfo().isNewUser()) {
-                            Toast.makeText(AuthActivity.this, "Account Created with the name " + mAuth.getCurrentUser().getDisplayName(), Toast.LENGTH_SHORT).show();
+                            Toast.makeText(AuthActivity.this, "Account created with the name " + mAuth.getCurrentUser().getDisplayName(), Toast.LENGTH_SHORT).show();
                         }
-                        startActivity(new Intent(AuthActivity.this, Homepage.class));
+                        startActivity(new Intent(AuthActivity.this, ChangeQuestionPage.class));
                         finish();
 
 
@@ -207,13 +208,13 @@ public class AuthActivity extends AppCompatActivity {
                     sourov.spinner().dismiss();
                     if (task.isSuccessful()) {
 
-                        startActivity(new Intent(AuthActivity.this, Homepage.class));
+                        startActivity(new Intent(AuthActivity.this, ChangeQuestionPage.class));
                         finish();
 
 
                     } else {
                         if (task.getException() instanceof FirebaseAuthInvalidCredentialsException) {
-                            Toast.makeText(AuthActivity.this, "code invalid", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(AuthActivity.this, "Code invalid", Toast.LENGTH_SHORT).show();
                         } else {
                             Toast.makeText(AuthActivity.this, Objects.requireNonNull(task.getException()).getMessage(), Toast.LENGTH_SHORT).show();
 

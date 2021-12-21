@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/question_bg"
+    tools:context=".activity.ChangeQuestionPage">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/logoOnQsAsk"
+                        android:layout_width="167dp"
+                        android:layout_height="140dp"
+                        android:layout_marginTop="64dp"
+                        android:src="@drawable/logo"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+
+                    <TextView
+                        android:id="@+id/titleQsAsk"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:fontFamily="@font/source_sans_pro_bold"
+                        android:text="Please answer a security question."
+                        android:textColor="#FFFFFF"
+                        android:textSize="24sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/logoOnQsAsk" />
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/textInputLayout"
+                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:hint="Select Question"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/titleQsAsk"
+                        app:startIconDrawable="@drawable/ic_question_icon">
+
+                        <AutoCompleteTextView
+                            android:id="@+id/questionSent"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/source_sans_pro_bold"
+                            android:inputType="none"
+                            android:textSize="14sp"
+                            tools:ignore="SpeakableTextPresentCheck" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <EditText
+                        android:id="@+id/anserofQs"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:drawableStart="@drawable/ic_answer_icon"
+                        android:drawablePadding="5dp"
+                        android:ems="10"
+                        android:fontFamily="@font/source_sans_pro_bold"
+                        android:hint="Answer"
+                        android:inputType="textPersonName"
+                        android:minHeight="48dp"
+                        android:padding="15dp"
+                        app:layout_constraintEnd_toEndOf="@+id/textInputLayout"
+                        app:layout_constraintStart_toStartOf="@+id/textInputLayout"
+                        app:layout_constraintTop_toBottomOf="@+id/textInputLayout" />
+
+                    <Button
+                        android:id="@+id/submitBtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="24dp"
+                        android:backgroundTint="#9AFF03"
+                        android:fontFamily="@font/source_sans_pro_bold"
+                        android:text="Update"
+                        android:textColor="@color/only_black"
+                        app:layout_constraintEnd_toEndOf="@+id/anserofQs"
+                        app:layout_constraintStart_toStartOf="@+id/anserofQs"
+                        app:layout_constraintTop_toBottomOf="@+id/anserofQs" />
+
+                    <TextView
+                        android:id="@+id/cautionText"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginBottom="32dp"
+                        android:elevation="5dp"
+                        android:fontFamily="@font/source_sans_pro_bold"
+                        android:shadowColor="#F50022"
+                        android:text="Caution: if you are unable to login your account this security question's answer will be asked after contacting customer support."
+                        android:textColor="#D3FF00"
+                        android:textSize="18sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="@+id/titleQsAsk"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="@+id/titleQsAsk"
+                        app:layout_constraintTop_toBottomOf="@+id/submitBtn" />
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <include layout="@layout/toolbar" />
+
+</FrameLayout>

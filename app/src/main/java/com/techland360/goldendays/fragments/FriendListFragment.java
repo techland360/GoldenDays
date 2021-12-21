@@ -106,7 +106,7 @@ public class FriendListFragment extends Fragment {
         hashMap.put("contactid", contactID);
         hashMap.put("contactname", contactname);
         hashMap.put("imageLink", imageLink);
-        hashMap.put("dateOfBirth", dateOfBirth.substring(0, 5));
+        hashMap.put("dateOfBirth", dateOfBirth);
 
         reference.updateChildren(hashMap);
     }

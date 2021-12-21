@@ -297,7 +297,7 @@ public class AddContacts extends BottomSheetDialogFragment {
 
         reference.setValue(hashMap).addOnCompleteListener(task -> {
             if (task.isSuccessful()) {
-                myToast.setText("data sent to database");
+                myToast.setText("Data Sent Successfully");
                 myToast.show();
 
                 dismiss();

@@ -5,11 +5,6 @@
 
     <item
         app:showAsAction="always"
-        android:id="@+id/app_bar_search"
-        android:icon="@android:drawable/ic_menu_search"
-        android:title="Settings" />
-    <item
-        app:showAsAction="always"
         android:id="@+id/app_bar_setting"
         android:icon="@drawable/settings"
         android:title="Settings" />

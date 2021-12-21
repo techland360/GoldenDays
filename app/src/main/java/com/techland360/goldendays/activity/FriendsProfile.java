@@ -165,10 +165,22 @@ public class FriendsProfile extends AppCompatActivity {
         }
     }
 
+    String dateString, monthString;
     private void dateFunctionality() {
         DatePickerDialog.OnDateSetListener mDateSetListener = (datePicker, year, month, day) -> {
             month = month + 1;
-            String date = day + "/" + month + "/" + year;
+
+            if (day < 10) {
+                dateString = "0" + day;
+            } else {
+                dateString = String.valueOf(day);
+            }
+            if (month < 10) {
+                monthString = "0" + month;
+            } else {
+                monthString = String.valueOf(month);
+            }
+            String date = dateString + "/" + monthString + "/" + year;
             dateOnDashboard.setText(date);
         };
         dateOnDashboard.setOnClickListener(v -> {
@@ -178,7 +190,7 @@ public class FriendsProfile extends AppCompatActivity {
             int day = cal.get(Calendar.DAY_OF_MONTH);
 
             DatePickerDialog dialog = new DatePickerDialog(
-                    this,
+                    FriendsProfile.this,
                     android.R.style.Theme_Holo_Light_Dialog_MinWidth,
                     mDateSetListener,
                     year, month, day);
@@ -188,7 +200,6 @@ public class FriendsProfile extends AppCompatActivity {
 
 
     }
-
     private void makeEditable() {
         nameOnDashboard.setEnabled(true);
         nameOnDashboard.setTextAlignment(TEXT_ALIGNMENT_VIEW_START);
